@@ -1,5 +1,11 @@
 package com.BikkadIT.UserManagementApp.repositories;
 
-public interface CountryRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.BikkadIT.UserManagementApp.entities.CountryMasterEntity;
+
+@Repository
+public interface CountryRepository extends JpaRepository<CountryMasterEntity, Integer> {
 
 }

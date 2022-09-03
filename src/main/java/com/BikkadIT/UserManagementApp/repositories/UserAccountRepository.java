@@ -1,8 +1,11 @@
 package com.BikkadIT.UserManagementApp.repositories;
 
-import javax.persistence.Entity;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-@Entity
-public interface UserAccountRepository {
+import com.BikkadIT.UserManagementApp.entities.UserAccountEntity;
+
+@Repository
+public interface UserAccountRepository extends JpaRepository<UserAccountEntity, Integer> {
 
 }
