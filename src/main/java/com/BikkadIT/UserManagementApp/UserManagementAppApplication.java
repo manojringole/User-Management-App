@@ -1,4 +1,4 @@
-package com.BikkadIT;
+package com.BikkadIT.UserManagementApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

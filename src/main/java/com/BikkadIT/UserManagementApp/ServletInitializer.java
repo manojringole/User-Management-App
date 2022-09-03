@@ -1,4 +1,4 @@
-package com.BikkadIT;
+package com.BikkadIT.UserManagementApp;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
